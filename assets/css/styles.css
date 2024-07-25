@@ -1,0 +1,141 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #cbc5c5; /* Gris claro de fondo */
+    color: #000000; /* Color de texto principal */
+}
+
+header {
+    background: #cbc5c5; /* Gris claro */
+    color: #ffffff; /* Blanco para el texto del header */
+    padding: 0.5rem 1rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #000000; /* Negro para el título del header */
+}
+
+header p {
+    font-size: 1rem;
+    color: #000000; /* Negro para el texto del header */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+nav ul li a {
+    color: #360d48; /* Morado oscuro para los enlaces de navegación */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #1900ff; /* Azul brillante al pasar el cursor */
+    transform: scale(1.1);
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    scroll-margin-top: 80px; /* Ajusta el espacio superior del scroll */
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #a56bbf; /* Morado suave para los títulos de sección */
+}
+
+.project {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.project:hover {
+    background-color: #eaf1f8;
+    transform: scale(1.02);
+}
+
+.project h3 {
+    margin-top: 0;
+    color: #a56bbf; /* Morado suave para los títulos de los proyectos */
+}
+
+.project a {
+    color: #a56bbf; /* Morado suave para los enlaces de los proyectos */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #4a90e2; /* Azul para el fondo del pie de página */
+    color: #fff; /* Blanco para el texto del pie de página */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    section {
+        margin: 1rem 0;
+    }
+}
+
+
+
+
+
